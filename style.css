@@ -1,10 +1,123 @@
+.body{
+    margin: 0;
+}
 
+.about-store{
+    position: fixed;
+    top: 0px;
+    margin: 7px 0 0 10px;
+    display: block;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.about{
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 12px;
+
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.store{
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.store:hover{
+    text-decoration: underline;
+}
+.apps{
+    height: 25px;
+    width: 25px;
+    opacity: 0.65;
+
+}
+
+.rh-icons{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: 7px;
+    margin-top: 5px;
+    display: block;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.gmail{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.gmail:hover{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.images{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.images:hover{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.apps{
+    padding-right: 15px;
+    cursor: pointer;
+    position: relative;
+    height: auto;
+    top: 8px
+}
+
+.apps:hover{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.sign-in{
+    color: white;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    opacity: 1;
+    border-radius: 3px;
+    font-weight: bold;
+    outline: none;
+    line-height: 28px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    white-space: nowrap;
+    cursor: default;
+    
+
+}
+.white-space{
+    margin-top: 109px;
+
+}
 
 .Google-Logo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 92px;
+
 }
 
 .search-bar-container{
@@ -12,6 +125,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 .Search-Bar{
     width: 487px;
@@ -20,7 +134,7 @@
     border: 1px solid #DFE1E5;
     border-radius: 20px;
     display: flex;
-    justify content: center;
+    justify-content: center;
 }
 
 .Search-Bar:hover {
@@ -28,11 +142,31 @@
     border-color: rgba(223, 225, 229, 0);
 }
 
+.mag-glass{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    right: 400px;
+    top: 10px;
+    opacity: 0.4;
+}
+
+.microphone{
+    height: 18px;
+    width: 14px;
+    position: relative;
+    right: -25px;
+    top: 10px;
+}
+
+.microphone:hover{
+    cursor: pointer
+}
 .Search-Bar-I {
     border: none;
     outline: none;
-    width: 90%;
-    background-color: transparent
+    width: 75%;
+    background-color: transparent;
 
 }
 
@@ -55,36 +189,50 @@
 }
 
 .ctr-p{
-    
-    text-align: left;
     color: rgba(0,0,0,.54);
     font-size: 14px;
     line-height: 40px;
     background: #f2f2f2;
-    min-width: 1510px;
     border-top: 1px solid #e4e4e4;
     font-size: 15px;
     font-family: arial, sans-serif;
     position: fixed;
     bottom: 0px;
-
-
-.b2HZT {
-    border-bottom: 1px solid #e4e4e4;
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.b3HZT{
+        border-bottom: 1px solid #e4e4e4;
+    }
     
 .country {
-    padding-left: 27px
+    padding-left: 27px;
 }    
     
 .Fx4vi {
     color: #5f6368;
-    padding-left: 27px;
-    float: right
+    padding-right: 27px;
+    float: right;
 }
 
+.Fx4vi:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
+.Lh4vi {
+    color: #5f6368;
+    padding-left: 27px;
+    float: left;
+}
+
+.Lh4vi:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .buttons:hover {
     color: #222;
